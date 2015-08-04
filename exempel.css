@@ -4,11 +4,17 @@ body {
 	font: 12pt/1.4 "Roboto", serif;
 	font-weight: 200;
 	max-width: 600px;
-	margin: 10px 5px;
+	margin: 10px auto;
+	padding:20px;
+	border: 5px solid navy;
 
 }
 h1,h2 {
 	color: gray;
 	font: 16pt/1.4 "Roboto", serif;
 	font-weight: 200;
+}
+table,th, td {
+	border: 1px solid black;
+	text-align: center;
 }
