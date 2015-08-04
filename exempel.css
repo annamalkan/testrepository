@@ -1,0 +1,14 @@
+
+body {
+	background: lightgray;
+	font: 12pt/1.4 "Roboto", serif;
+	font-weight: 200;
+	max-width: 600px;
+	margin: 10px 5px;
+
+}
+h1,h2 {
+	color: gray;
+	font: 16pt/1.4 "Roboto", serif;
+	font-weight: 200;
+}
