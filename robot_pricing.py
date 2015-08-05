@@ -13,7 +13,7 @@ class Item(object):
 		return self.price*self.count*self.vat
 		
 items=[Item(900,2,1.25), Item(100,1,1.06)]
-total=items[0].total_price+items[1].total_price
+total=items[0].total_price()+items[1].total_price()
 print total
 #robot = Item(900,2,1.25)
 # robot.price=900
